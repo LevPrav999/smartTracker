@@ -3,6 +3,7 @@ package ru.arisubest.smartshopper.di
 import android.content.Context
 import android.os.Build
 import androidx.annotation.RequiresApi
+import androidx.room.Room
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -11,7 +12,6 @@ import dagger.hilt.components.SingletonComponent
 import ru.arisubest.smartshopper.data.local.ShoppingItemDao
 import ru.arisubest.smartshopper.data.local.ShoppingListDatabase
 import javax.inject.Singleton
-import androidx.room.Room
 
 @InstallIn(SingletonComponent::class)
 @Module

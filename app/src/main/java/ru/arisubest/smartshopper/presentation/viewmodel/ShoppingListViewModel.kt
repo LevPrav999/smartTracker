@@ -6,12 +6,12 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
 import dagger.hilt.android.qualifiers.ApplicationContext
-import ru.arisubest.smartshopper.data.local.ShoppingItem
-import ru.arisubest.smartshopper.data.local.ShoppingItemDao
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
+import ru.arisubest.smartshopper.data.local.ShoppingItem
+import ru.arisubest.smartshopper.data.local.ShoppingItemDao
 import javax.inject.Inject
 
 @HiltViewModel

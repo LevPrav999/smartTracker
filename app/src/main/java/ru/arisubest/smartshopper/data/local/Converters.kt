@@ -1,7 +1,6 @@
 package ru.arisubest.smartshopper.data.local
 
 import androidx.room.TypeConverter
-import ru.arisubest.smartshopper.data.local.ItemCategory
 
 class Converters {
     @TypeConverter

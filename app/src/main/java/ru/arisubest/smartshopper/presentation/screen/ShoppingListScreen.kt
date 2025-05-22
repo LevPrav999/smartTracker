@@ -60,15 +60,15 @@ import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
 import androidx.hilt.navigation.compose.hiltViewModel
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+import ru.arisubest.smartshopper.R
 import ru.arisubest.smartshopper.data.local.ItemCategory
 import ru.arisubest.smartshopper.data.local.ShoppingItem
 import ru.arisubest.smartshopper.data.remote.RetrofitClient
 import ru.arisubest.smartshopper.presentation.viewmodel.BalanceViewModel
 import ru.arisubest.smartshopper.presentation.viewmodel.ShoppingListViewModel
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
-import ru.arisubest.smartshopper.R
 import java.time.DayOfWeek
 
 @RequiresApi(Build.VERSION_CODES.O)
