@@ -1,1 +1,2 @@
-# SmartShopper
+# smartTracker
+Samsung Academy Final Project
