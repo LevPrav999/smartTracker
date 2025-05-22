@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Умный Покупатель</string>
+    <string name="smart_shopper_title">Умный Покупатель</string>
+    <string name="no_items">Нет товаров</string>
+    <string name="please_enter_a_title">Пожалуйста, введите название!</string>
+    <string name="estimated_price_cannot_be_0">Оценочная цена не может быть 0!</string>
+    <string name="enter_item_here">Введите название товара:</string>
+    <string name="enter_description_here">Введите описание:</string>
+    <string name="enter_estimated_price_here">Введите оценочную цену:</string>
+    <string name="got_it">Куплено!</string>
+    <string name="title_cannot_be_empty">Название не может быть пустым!</string>
+    <string name="save">Сохранить</string>
+    <string name="shopping_list_summary">Сводка списка покупок</string>
+    <string name="on_your_shopping_list_there_are_a_total_of_items_there_are">В вашем списке покупок всего %1$s товаров. Из них:</string>
+    <string name="food_items">%1$s продуктов питания</string>
+    <string name="health_items">%1$s товаров для здоровья</string>
+    <string name="clothes_items">%1$s предметов одежды</string>
+    <string name="electronics_items">%1$s электронных товаров</string>
+    <string name="cleaning_items">%1$s товаров для уборки</string>
+    <string name="recreation_items">%1$s товаров для отдыха</string>
+    <string name="miscellaneous_items">%1$s прочих товаров</string>
+</resources>
